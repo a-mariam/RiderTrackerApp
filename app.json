@@ -2,6 +2,7 @@
   "expo": {
     "name": "RiderTrackerApp",
     "slug": "RiderTrackerApp",
+    "newArchEnabled": true,
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,7 +18,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.maryamambali.RiderTrackerApp"
     },
     "web": {
       "output": "server",
